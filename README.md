@@ -1,2 +1,2 @@
-# cybersec-practice-1
+# Cybersecurity practice
 
