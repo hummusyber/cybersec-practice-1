@@ -26,7 +26,14 @@ Vuln exploited by taking advantage of no actual check of admin details–access 
 *similar to previous lab, but admin panel is located at a more unpredictable location.
 + There is no robots.txt file available upon checking, so I checked the page source.
 + Noticed an 'if' block of code and found the admin panel.
-+ Appended admin panel to the website URL.
++ Appended the admin panel to the website URL.
 + Deleted user 'carlos'.
 Vuln exploited since the URL to the admin panel was available in the source code (on the client side itself). So it was easily accessible simply by checking the page source.
+
+### LAB 3 (Parameter-based access control methods):
+Some apps may determine user's privileges at login and store this info in a user-controllable location. This means that the user can modify value access/functionality w/o the right authorization.
++ Logged in to the account on the target website using preset details.
++ Inspected website and adjusted cookie settings (set Admin value to true).
++ Admin panel appears, wherein upon entering, user 'carlos' can be deleted.
+Vuln can be exploited simply by accessing the Admin cookie value after login, revealing a link to the admin panel, where any user information can be tampered with.
 
