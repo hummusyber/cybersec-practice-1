@@ -1,3 +1,3 @@
 # Portswigger practice
 
-### 1. Path traversal
+## 1. Path traversal
