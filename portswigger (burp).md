@@ -1,5 +1,5 @@
 # Portswigger practice
-
+Mainly web security...
 ## 1. Path traversal
 Basic exercise, basic idea – involved searching for a 'passwd' file by accessing directories/files that contain sensitive information.
 + Open test website in BurpSuite as target.
