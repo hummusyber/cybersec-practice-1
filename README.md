@@ -1,4 +1,4 @@
 # Personal Cybersecurity Practice
 
-## What?
+## what?
 informal documentation (practicing) of anything i try to learn.
